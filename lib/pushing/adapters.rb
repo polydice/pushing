@@ -8,6 +8,7 @@ module Pushing
     autoload :ApnoticAdapter, 'pushing/adapters/apn/apnotic_adapter'
     autoload :LowdownAdapter, 'pushing/adapters/apn/lowdown_adapter'
     autoload :AndpushAdapter, 'pushing/adapters/fcm/andpush_adapter'
+    autoload :FcmpushAdapter, 'pushing/adapters/fcm/fcmpush_adapter'
     autoload :FcmGemAdapter,  'pushing/adapters/fcm/fcm_gem_adapter'
     autoload :TestAdapter
 

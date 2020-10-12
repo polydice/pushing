@@ -6,6 +6,7 @@ gem "houston", require: false
 gem "apnotic", ">= 1.2.0", require: false
 gem "lowdown", require: false
 gem "andpush", require: false
+gem "fcmpush", require: false
 gem "fcm", require: false
 gem "pry"
 gem "pry-byebug", platforms: :mri
